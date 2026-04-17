@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-class">
+        <h1>Hello, welcome to our calculator ! Press any number to start ! </h1>
+    </header>
+
+
+    <div class = "wrap-calculator">
+        <div class = "screen"></div>
+
+        <div class="clearDiv">
+                <button class="clearButton"> Clear </button>
+                <button class="deleteButton"> Delete </button>
+        </div>
+
+        <div class="padDiv">
+            <button class="btn" data-type="number" data-value="7"> 7 </button>
+            <button class="btn" data-type="number" data-value="8"> 8 </button>
+            <button class="btn" data-type="number" data-value="9"> 9 </button>
+            <button class="btn" data-type="operator" data-value="+"> + </button>
+
+            <button class="btn" data-type="number" data-value="4"> 4 </button>
+            <button class="btn" data-type="number" data-value="5"> 5 </button>
+            <button class="btn" data-type="number" data-value="6"> 6 </button>
+            <button class="btn" data-type="operator" data-value="-"> - </button>
+
+            <button class="btn" data-type="number" data-value="1"> 1 </button>
+            <button class="btn" data-type="number" data-value="2"> 2 </button>
+            <button class="btn" data-type="number" data-value="3"> 3 </button>
+            <button class="btn" data-type="operator" data-value="*"> * </button>
+
+            <button class="btn" data-type="decimal" data-value="."> . </button>
+            <button class="btn" data-type="number" data-value="0"> 0 </button>
+            <button class="btn" data-type="operator" data-value="**"> ^ </button>
+            <button class="btn" data-type="operator" data-value="/"> / </button>
+
+        </div>
+
+        <div class="equalDiv">
+            <button class="equalButton"> = </button>
+        </div>
+
+
+    </div>
+
+
+    <footer class="footer-class">
+        Copyright Nour @ The Odin Project 2026
+    </footer>
+</body>
+</html>
